@@ -87,3 +87,7 @@ ul > li > a {
 .navbar-light .navbar-nav .nav-link {
   color: #F5f5f5;
 }
+
+.mobile-link-align-right {
+  text-align: right;
+}
