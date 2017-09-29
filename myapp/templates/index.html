@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+
+    {%block title %} My Hobby Page {% endblock %}
+
+    {% block content %}
+
+    {% block nav %}
+      <style type="text/css">
+      .not_display { display: none;}
+      </style>
+    {% endblock %}
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-4">
+        </div>
+        <div class="col-xs-12 col-sm-8">
+          <!-- class="col-xs-12 col-sm-4" -->
+          <picture>
+            <img class="padded" src="/static/img/rounded.png" style="width:375px;">
+            <!-- <source media="(min-width: 650px)" srcset="IMG_0853.JPG">
+            <source media="(min-width: 465px)" srcset="7ded.jpg"> -->
+          </picture>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-sm-2">
+          </div>
+          <div class="col-xs-12 col-sm-10">
+            <h1>
+              How are you doing?
+            </h1>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="flow col-xs-0 col-sm-2">
+      </div>
+      <div class="flow col-xs-12 col-sm-10">
+        <p>
+          My name is Logan, and I'm a pretty
+          complex guy. I have all sorts of interests! They include:
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-3">
+          <a class="links" href="page/hiking.html">Hiking and Outdoors</a>
+        </div>
+        <div class="col-xs-12 col-sm-3">
+          <a class="links" href="page/gaming.html">Gaming and Nerding out</a>
+        </div>
+        <div class="col-xs-12 col-sm-3">
+          <a class="links" href="page/travel.html">Travel and Culture</a>
+        </div>
+        <div class="col-xs-12 col-sm-3">
+          <a class="links" href="page/bjj.html">Brazillian Jiujitsu</a>
+        </div>
+    </div>
+  {% endblock %}

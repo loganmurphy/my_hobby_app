@@ -1,0 +1,99 @@
+{% extends "base.html" %}
+
+    {%block title %} My Hobby Page {% endblock %}
+
+    {% block content %}
+
+    {% block nav %}
+      <style type="text/css">
+      .not_hiking { display: none;}
+      </style>
+    {% endblock %}
+
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-8 col-sm-5">
+          <h1>
+            Do you love hiking?
+          </h1>
+        </div>
+        <div class="col-xs-6 col-sm-9">
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <p>
+            The fresh mountain air, a cool breeze in your face, having an unobstructed<br>
+            view that spans the horizon. These are all reasons that I love hiking, and<br>
+            it's also why you should too! Let me take you on an adventure!
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-4">
+          <picture>
+            <img src="https://lh3.googleusercontent.com/V10sm8LA_eE0WPEGcb4UjVTYbHOELSQqyp72O0wA8379cv3qBt8uFqfckoqH_4gwK6BhAkCOt09JKgtEXLb-6VTEOLuknBYPJJ0nCr6bwayx-W4zYUnTCezcwdhQKqCPXvqXWY4_JXACHYjy1atnrKPlChZsz5HUuOPLMmIhaF3SzP8TmoJtxCgZuhAQPaxDCFBxFP56QiXd-xVucqMSeOyfc8cH163CG0LRNlCObE2KFuc6VDuRLSgcUlVZbaCj0tqvYgi3Vwa3ALAi07z8I_WzS98sYFqqxHxOoJneGT5_Tlad7dwdYwEBm_gOvQeB_x94weAbOaT00Jx3LnYa0FvOB4vzVimW6GRN8DQSSeA89bF1h7HDaAdsJbPzQE-JSdF3cMMT7lUuenMs_nMwFVsldxVsBTkZsJUa-fUPYEwi6V-FXX_QMKFWhh4T3Qi98S6y6WX7XVB6K6okwm7qy0jcU66_eAoDFWno0G7o3qcTPpHnXGKrytagtj0H05V0WaRByvrlzD3snANusMiQvUNvFJ-3W4AdXJxeer0L-5eAdwYB9YXR3G9Zc4TLT9tpWGNSITgbzgLgQwlLcPGqcZnTjy7YEzYz7ZAnIeaMcQ=w418-h557-no" style="width:100%;">
+            <!-- <source media="(min-width: 650px)" srcset="IMG_0853.JPG">
+            <source media="(min-width: 465px)" srcset="7ded.jpg"> -->
+          </picture>
+        </div>
+        <div class="col-xs-12 col-sm-8">
+          <h3>
+            Let's see where this goes
+          </h3>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="wrap row flipped">
+        <div class="col-xs-0 col-sm-6">
+          <picture>
+            <img src="https://lh3.googleusercontent.com/j7cvAu0hymt_LIi4Rit2MmKp-jAY8AMImlV7qibtcZuR-LD4XSeebupkSD1ZPrRnODOkPcX4Re7QhiWHQeItyo0-tBUIzvk9TBjk-pVTCiPo1p1fxvtpWoeai52PcSL9-VwEVScgcd4K0mHBm15P7Sf8AWYgNHfnqN3LjmSzNtBn6LJ6_H0Czw8_114VrzINPF9CHCQ9UIeoMyWXWfh1u2kqL7JJkNHrSVELwd818uDl-GeCmBq0RmY02It06CUSs_wI6nF43pAy7OdIDIV9-9tt1FWTEPAODZrHGxlvVbi2sQXMicD9j-793d2aPRUW1qAmxUpUyAGiqyRt0Cr-byGJP6xTecGEUFmvncHRMv9Fch-2f57V-4FVjFK78_cazKxS0QE2TgFCBPO94JcebYwWJgppmLkah0VC_4U2vKqyhUsbkK5KZHN_89VVKGSjaaQVmvQ6EopkuZOTRhnUxS8-BVZ_Eq-g4a6o-nFx1M4lgULeWjo510vcmRpwpnlgsk5L3qUaiC07CcJpiyLEPHy-ApjhHgMUcMsvTfM9UbATOJ4k_Ub46atZYqRM_5xlZMC-nJehwrDN7H6d9Il0Ghe4lPyEHzCN59U1ghYlpQ=w640-h480-no" style="width:100%;">
+            <!-- <source media="(min-width: 650px)" srcset="IMG_0635.JPG">
+            <source media="(min-width: 465px)" srcset="IMG_0635.JPG"> -->
+          </picture>
+        </div>
+        <div class="col-xs-12 col-sm-6">
+          <h3>
+            Race you to the top!
+          </h3>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="wrap row">
+        <div class="col-xs6 col-sm-6">
+          <picture>
+            <img src="https://lh3.googleusercontent.com/3s3jIJW8JrwDVASW6AoSWgs-NH0_O90a_dMKXRDI8EcRrVcyuD8jSLJw9x0ompl1m9dIIhTxA5rEfB8Fzh1Hz7MDEfz61ij8K2oQ9HiLlRq06cTeW4i1-qNyVxPbd8xAmXVYEVsj2_OMsbzdIBowrS7uPZVPUhnAxDpoVw0Yl200wzpXfeicfB9tDXoadEtqzoiDDLWPWI3ucCQeljYehs2bER-FAzcRhG7W8blOkBY8pbgdvitZpM3z06Uw0z9UIkSZbeJWj5q4Yp-GhuJPTAqeDIA9l5I5Ogu28nqwDxV0mRkvd1R303QJg2yDw84EHcdqbHnuO040upLzV4dp5COpj1FJ4YK7H6Eo5Zox_bwDNFIyXF89nYmB_debBPJrGvGweuLKmJZPzXIq6C6dby59H0JWjGOOIiiYpVWkrBaz91DYp0l4UOZj4eGYWfnZQOMl7X0BG00JCozmlgocaANv0rB1AejC5SnxsflCoFax8zJHQ21cYTpQg5X1kJ76a8bTJ76Q_xc4Mk7PTBDeJipCqEeGesKs83XJVcifcEjtX1fi-2Yp-luuSN3K4klpEkMKKpJBZ73q8TGy_zr13M31Y1NiyNJEHV0be9Divg=w640-h480-no" style="width:100%;">
+            <!-- <source media="(min-width: 650px)" srcset="IMG_0642.JPG">
+            <source media="(min-width: 465px)" srcset="IMG_0642.JPG"> -->
+          </picture>
+        </div>
+        <div class="col-xs-6 col-sm-6">
+          <h3>
+            I'm not afraid to get my feet wet. How about you?
+          </h3>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="wrap row flipped">
+        <div class="col-xs-6 col-sm-6">
+          <picture>
+            <img src="https://lh3.googleusercontent.com/cqEBnWaiOs_7RO4MsYqE_klwczep6KGWMABxaU2ksj1zC5XQgtfEiMcn7uo2UdLFIge2kQe8-vZgxLibmoyPW8wStxyfu5tR0yQENCAce756nvPbzK6lglJtqvfnjhhMLzfudkbbfaRQ_87bUpD3-qgNPCosvEV68BHzfa3QRXca2xzEiEcb7GPsf8guTToHMBMN8czE9Ul3yskTIw7XQzgoOHHf5iA7-f1T6Plc10rhky6lhMbkzAeuzdD_1Thne0hRkOH74d0ukGxrNVastgInP20UHgDgwBjyc-0XpAko9c251oLWANPVeJ_kk326hGaq5Lwb8sbvUhYVb1HvMpENqaUwVVEgFxhWgR_a1Q01aTk_whSEmk-7O3p22aK85QIgsXmnfKpbrBfAInM8YVDILmk-8LfCV4lLYc_5T0ZUyyIGz9z6S1bLNQ5tsV_TTPEo0uFzI0fywv2oAGWeyAxFsL-GsFeZOJ95GQjQXpaq818lDfigB6CWRkxwbB4h3Rg2Xfuyllk0SY4p-gQ2exegSG7v8MIoVm6B7_Q6jpO0FWmj0UrGacrFR5PUEIju4nom04GX7TZAzphp7WWgXVLx1EYLsHo7lXXyoxUMug=w640-h480-no" style="width:100%;">
+            <!-- <source media="(min-width: 650px)" srcset="17201208_10203269697860900_8502158779720950636_n.JPG">
+            <source media="(min-width: 465px)" srcset="17201208_10203269697860900_8502158779720950636_n.jpg"> -->
+          </picture>
+        </div>
+        <div class="col-xs-6 col-sm-6">
+          <h3>
+            Thanks for coming along.
+          </h3>
+        </div>
+      </div>
+    </div>
+    {% endblock %}
