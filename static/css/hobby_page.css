@@ -5,7 +5,9 @@ html, body {
 }
 
 div {
-  margin: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+
 }
 
 h1 {
@@ -99,4 +101,5 @@ ul > li > a {
 footer {
   font-size: .75em;
   text-align: center;
+  margin-top: 1em;
 }
