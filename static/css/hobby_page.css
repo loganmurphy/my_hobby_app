@@ -3,6 +3,7 @@ html, body {
   width: 100%;
   background-color: gray;
   margin: 1em;
+  margin-right: 1em;
 }
 
 h1 {
@@ -95,4 +96,5 @@ ul > li > a {
 
 footer {
   font-size: .75em;
+  text-align: center;
 }
