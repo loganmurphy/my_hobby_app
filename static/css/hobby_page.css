@@ -52,7 +52,17 @@ h2, h3 {
   border: transparent;
   box-shadow: 5px 5px #F5F5F5;
   margin-bottom: 2em;
+}
 
+@media screen and (max-width: 480px) {
+  .padded {
+    border-radius: 50%;
+    border: transparent;
+    box-shadow: 5px 5px #F5F5F5;
+    margin-bottom: 2em;
+    display: flex;
+    align-items: center;
+  }
 }
 
 .centered {
