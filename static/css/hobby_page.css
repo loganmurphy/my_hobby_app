@@ -50,7 +50,7 @@ h2, h3 {
 .padded {
   border-radius: 50%;
   border: transparent;
-  box-shadow: 5px 5px #F5F5F5;
+  /*box-shadow: 5px 5px #F5F5F5;*/
   margin-bottom: 2em;
 }
 
