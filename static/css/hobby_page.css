@@ -54,7 +54,6 @@ h2, h3 {
   margin-bottom: 2em;
 }
 
-
 .centered {
   display: flex;
   align-items: center;
@@ -93,9 +92,9 @@ ul > li > a {
   color: #F5f5f5;
 }
 
-.mobile-link-align-right {
+/*.mobile-link-align-right {
   text-align: right;
-}
+}*/
 
 footer {
   font-size: .75em;
