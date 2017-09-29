@@ -36,6 +36,7 @@ def make_app():
     (r"/static/(.*)", tornado.web.StaticFileHandler, {'path': 'static'})
   ], autoreload=True)
 
+
 if __name__ == "__main__":
   tornado.log.enable_pretty_logging()
 
