@@ -4,12 +4,6 @@ html, body {
   background-color: gray;
 }
 
-div {
-  margin-left: 1em;
-  margin-right: 1em;
-
-}
-
 h1 {
   background-color: #F5F5F5;
   text-align: center;
@@ -37,6 +31,11 @@ h2, h3 {
       line-height: 1em;
       font-weight: 400;
       color: #F5F5F5;
+    }
+    div {
+      margin-left: 1em;
+      margin-right: 1em;
+
     }
 }
 
