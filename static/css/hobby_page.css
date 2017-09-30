@@ -31,11 +31,29 @@ h2, h3 {
   color: #F5F5F5;
 }
 
-@media screen and (max-width: 480px) {
+.my_pic {
+  display: flex;
+  border-radius: 50%;
+  border: transparent;
+  box-shadow: 5px 5px #F5F5F5;
+  margin: 0 auto;
+  /*width: 340px;*/
+}
+
+@media screen and (min-width: 370px) and (max-width: 480px) {
   h2, h3 {
     padding-top: .5em;
   }
+  div {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
   .my_pic {
+    display: flex;
+    border-radius: 50%;
+    border: transparent;
+    box-shadow: 5px 5px #F5F5F5;
+    margin: 0 auto;
     width: 340px;
   }
 }
@@ -58,12 +76,13 @@ h2, h3 {
   }
 }
 
+/*
 @media screen and (max-width: 480px) {
   div {
     margin-left: 2%;
     margin-right: 2%;
   }
-}
+}*/
 
 @media screen and (min-width: 1050px){
   .shift {
@@ -109,14 +128,7 @@ h2, h3 {
   text-align: left;
 }
 
-.my_pic {
-  display: flex;
-  border-radius: 50%;
-  border: transparent;
-  box-shadow: 5px 5px #F5F5F5;
-  margin: 0 auto;
-  /*width: 340px;*/
-}
+
 
 .centered {
   display: flex;
