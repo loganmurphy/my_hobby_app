@@ -84,7 +84,13 @@ ul > li > a {
   color: #F5F5F5
 }
 
-@media screen and (max-width: 750px) {
+/*@media screen and (max-width: 750px) {
+    ul {
+      padding-right: 1em;
+    }
+}*/
+
+@media screen and (max-width: 670px) {
     ul {
       padding-right: 1em;
     }
