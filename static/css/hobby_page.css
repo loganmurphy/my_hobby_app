@@ -92,11 +92,12 @@ ul > li > a {
 
 @media screen and (max-width: 736px) {
   .wrap-tablet {
-    display: flex;
+    margin: 1em;
+    /*display: flex;
     align-items: center;
     padding-bottom: 2%;
     padding-top: 2%;
-    text-align: left;
+    text-align: left;*/
   }
 }
 
