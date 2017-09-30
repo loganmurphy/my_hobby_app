@@ -31,7 +31,18 @@ h2, h3 {
       line-height: 1em;
       font-weight: 400;
       color: #F5F5F5;
+      padding-top: 1em;
     }
+
+/*@media screen and (max-width: 480px) {
+    h2, h3 {
+      font-size: 2em;
+      line-height: 1em;
+      font-weight: 400;
+      color: #F5F5F5;
+      padding-top: 1em;
+    }*/
+    
     div {
       margin-left: 2%;
       margin-right: 2%;
