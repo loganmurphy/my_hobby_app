@@ -48,12 +48,7 @@ h2, h3 {
     margin-left: 2%;
     margin-right: 2%;
   }
-  .my_pic {
-    display: flex;
-    border-radius: 50%;
-    border: transparent;
-    box-shadow: 5px 5px #F5F5F5;
-    margin: 0 auto;
+  .mobile_pic {
     width: 340px;
   }
 }
