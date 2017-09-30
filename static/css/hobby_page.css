@@ -51,7 +51,7 @@ h2, h3 {
 }
 
 @media screen and (min-width: 660px) and (max-width: 750px) {
-  .shift_tablet {
+  .shift {
     margin-left: .5em;
   }
   .shift-less {
@@ -62,6 +62,12 @@ h2, h3 {
   }*/
 }
 @media screen and (min-width: 1000px) {
+  .shift_tablet {
+    margin-left: .75em;
+  }
+  .shift-less {
+    margin-left: .25em;
+  }
 }
 
 .wrap {
