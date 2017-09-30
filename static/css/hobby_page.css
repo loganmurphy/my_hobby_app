@@ -31,22 +31,14 @@ h2, h3 {
       line-height: 1em;
       font-weight: 400;
       color: #F5F5F5;
-      padding-top: 1em;
+      padding-top: .5em;
     }
+}
 
-/*@media screen and (max-width: 480px) {
-    h2, h3 {
-      font-size: 2em;
-      line-height: 1em;
-      font-weight: 400;
-      color: #F5F5F5;
-      padding-top: 1em;
-    }*/
-    
+@media screen and (max-width: 480px) {
     div {
       margin-left: 2%;
       margin-right: 2%;
-
     }
 }
 
@@ -92,6 +84,11 @@ ul > li > a {
   color: #F5F5F5
 }
 
+@media screen and (max-width: 750px) {
+    ul {
+      padding-right: 1em;
+    }
+}
 
 .links {
   font-size: 2.5em;
