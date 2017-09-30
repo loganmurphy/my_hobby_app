@@ -14,7 +14,7 @@ h1 {
 }
 
 @media screen and (min-width: 660px) and (max-width: 750px) {
-  h1 {
+  .landscape-h1 {
     width: 4em;
   }
 }
