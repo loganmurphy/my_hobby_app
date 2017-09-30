@@ -43,10 +43,6 @@ h2, h3 {
 }
 
 @media screen and (min-width: 660px) and (max-width: 750px) {
-  div {
-    margin-left: 0%;
-    margin-right: 0%;
-  }
   .shift {
     margin-left: .5em;
   }
@@ -63,11 +59,12 @@ h2, h3 {
   text-align: left;
 }
 
-.padded {
+.my_pic {
   border-radius: 50%;
   border: transparent;
   box-shadow: 5px 5px #F5F5F5;
-  margin-bottom: 2em;
+  margin: 0 auto;
+
 }
 
 .centered {
@@ -76,11 +73,11 @@ h2, h3 {
   text-align: center;
 }
 
-.centered-justly {
+/*.centered-justly {
   display: flex;
   justify-content: center;
   text-align: center;
-}
+}*/
 
 p {
   margin-top: 1em;
