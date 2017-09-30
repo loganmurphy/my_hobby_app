@@ -52,10 +52,7 @@ h2, h3 {
 
 @media screen and (min-width: 660px) and (max-width: 750px) {
   .shift {
-    margin-left: .5em;
-  }
-  .shift-more {
-    margin-left: .75em;
+    margin-left: .15em;
   }
   .un-shift {
     margin-left: -.5em;
