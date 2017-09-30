@@ -54,6 +54,9 @@ h2, h3 {
   .shift {
     margin-left: .5em;
   }
+  .shift_more {
+    margin-left: .6em;
+  }
   .shift-less {
     margin-left: .25em;
   }
@@ -64,6 +67,9 @@ h2, h3 {
 @media screen and (min-width: 1000px) {
   .shift_tablet {
     margin-left: .75em;
+  }
+  .shift_tablet_more {
+    margin-left: .8em;
   }
   .shift-less {
     margin-left: .25em;
