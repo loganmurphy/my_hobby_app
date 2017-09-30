@@ -50,6 +50,9 @@ h2, h3 {
   .shift {
     margin-left: .5em;
   }
+  .shift-more {
+    margin-left: .75em;
+  }
 }
 
 .wrap {
