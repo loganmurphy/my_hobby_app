@@ -50,6 +50,16 @@ h2, h3 {
   }
 }
 
+.shift {
+  margin-left: .5em;
+}
+.shift_more {
+  margin-left: .6em;
+}
+.shift-less {
+  margin-left: .25em;
+}
+
 @media screen and (min-width: 660px) and (max-width: 750px) {
   .shift {
     margin-left: .5em;
