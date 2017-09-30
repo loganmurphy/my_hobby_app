@@ -76,6 +76,12 @@ h2, h3 {
   text-align: center;
 }
 
+.centered-justly {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
 p {
   margin-top: 1em;
   margin-bottom: 1em;
