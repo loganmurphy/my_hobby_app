@@ -42,7 +42,7 @@ h2, h3 {
   }
 }
 
-@media screen and (max-width: 736px) {
+@media screen and (min-width: 660px) and (max-width: 750px) {
   div {
     margin-left: 0%;
     margin-right: 0%;
