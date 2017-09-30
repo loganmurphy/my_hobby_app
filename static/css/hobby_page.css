@@ -51,7 +51,7 @@ h2, h3 {
 }*/
 div {
   margin-left: 0;
-  margin-right: 0;
+  margin-right: -2%;
 }
 @media screen and (min-width: 660px) and (max-width: 750px) {
   .shift {
