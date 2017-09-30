@@ -60,17 +60,19 @@ h2, h3 {
 }
 
 .my_pic {
+  display: flex;
   border-radius: 50%;
   border: transparent;
   box-shadow: 5px 5px #F5F5F5;
   margin: 0 auto;
-
 }
 
 .centered {
   display: flex;
   align-items: center;
   text-align: center;
+  max-width: 90%;
+  margin-left: 5%
 }
 
 /*.centered-justly {
