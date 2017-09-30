@@ -54,9 +54,9 @@ h2, h3 {
   .shift {
     margin-left: .6em;
   }
-  .un-shift {
+  /*.un-shift {
     margin-left: -.5em;
-  }
+  }*/
 }
 
 .wrap {
