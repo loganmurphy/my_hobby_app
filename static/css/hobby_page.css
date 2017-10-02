@@ -140,3 +140,22 @@ footer {
   text-align: center;
   margin-top: 1em;
 }
+
+.center_forms {
+  width: 60%;
+  margin-left: 20%;
+}
+
+@media screen and (min-width: 1000px) {
+  .center_forms {
+    width: 60%;
+    margin-left: 20%;
+  }
+  .margin_top_contact {
+    margin-top: 10%;
+  }
+}
+
+
+
+}
