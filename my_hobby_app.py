@@ -55,9 +55,8 @@ class PageHandler(TemplateHandler):
         },
         Source='loganmurphy1984@gmail.com'
       )
-      self.redirect('/thank-you-for-submitting')
+      self.redirect('/page/thank-you-for-submitting')
     #   self.write("Thank you for your data.")
-
   def get(self, page):
     self.set_header(
       'Cache-Control',
