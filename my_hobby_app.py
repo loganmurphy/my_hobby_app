@@ -55,8 +55,8 @@ class PageHandler(TemplateHandler):
         },
         source='loganmurphy1984@gmail.com'
       )
-    #   self.redirect('/thank-you-for-submitting')
-    self.write("Thank you for your data.")
+    # self.redirect('/thank-you-for-submitting')
+      self.write("Thank you for your data.")
 
   def get(self, page):
     self.set_header(
