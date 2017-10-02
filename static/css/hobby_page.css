@@ -152,3 +152,9 @@ footer {
   margin-left: 20%;
   margin-top: 10%;
 }
+
+.thanks {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
