@@ -111,6 +111,12 @@ h2, h3 {
   margin-top: .5em;
 }
 
+.centered_2 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
 p {
   margin-top: 1em;
   margin-bottom: 1em;
@@ -154,8 +160,4 @@ footer {
   .margin_top_contact {
     margin-top: 10%;
   }
-}
-
-
-
 }
