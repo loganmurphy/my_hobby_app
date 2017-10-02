@@ -9,10 +9,21 @@
         .not_contact { display: none;}
         </style>
       {% endblock %}
-
-      <img src="/static/img/thanks.jpg" style=width:"100%;">
-      <h1>
-        Thank You!
-      </h1>
+      <div class="container">
+        <div class="wrap row flipped">
+          <div class="col-xs12 col-sm-12 col-lg-12">
+            <picture>
+              <img src="/static/img/thanks.jpg" style="width:100%;">
+              <!-- <source media="(min-width: 650px)" srcset="IMG_0642.JPG">
+              <source media="(min-width: 465px)" srcset="IMG_0642.JPG"> -->
+            </picture>
+            </div>
+            <div class="col-xs12 col-sm-12 col-lg-12">
+              <h1>
+                Thank You!
+              </h1>
+          </div>
+        </div>
+      </div>
 
     {% endblock %}
