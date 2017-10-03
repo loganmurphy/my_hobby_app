@@ -39,7 +39,8 @@ class MainHandler(TemplateHandler):
 class PageHandler(TemplateHandler):
   def post(self, page):
       email = self.get_body_argument('email')
-      password = self.get_body_argument('password')
+      first_name = self.get_body_argument('first_name')
+      last_name = self.get_body_argument('last_name')
       response = SES_CLIENT.send_email(
         Destination={
           'ToAddresses': ['loganmurphy1984@gmail.com'],
@@ -48,7 +49,7 @@ class PageHandler(TemplateHandler):
           'Body': {
             'Text': {
               'Charset': 'UTF-8',
-              'Data': 'Email: {}\nPassword: {}\n'.format(email, password)
+              'Data': 'Email: {}\nName: {}, {}\n'.format(email, last_name, first_name)
             },
           },
           'Subject': {'Charset': 'UTF-8', 'Data': 'Thank You!'},
@@ -56,7 +57,6 @@ class PageHandler(TemplateHandler):
         Source='loganmurphy1984@gmail.com'
       )
       self.redirect('/page/thank-you-for-submitting.html')
-    #   self.write("Thank you for your data.")
   def get(self, page):
     self.set_header(
       'Cache-Control',
