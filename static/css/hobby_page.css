@@ -56,10 +56,10 @@ h2, h3 {
   h2, h3 {
     padding-top: .5em;
   }
-  div {
+  /*div {
     margin-left: 2%;
     margin-right: 2%;
-  }
+  }*/
   .my_pic {
     width: 200px;
   }
@@ -83,6 +83,10 @@ h2, h3 {
     display: flex;
     align-items: left;
     margin-left: 0;
+  }
+  .github {
+    width: 40%;
+    margin-left: 25%;
   }
 }
 @media screen and (min-width: 750px) and (max-width: 768px){
