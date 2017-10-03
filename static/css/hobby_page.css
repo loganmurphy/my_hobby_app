@@ -13,16 +13,19 @@ h1 {
   padding: .113em;
 }
 
-.flow {
-  display: flex;
-  flex-flow: column;
-}
-
 h2, h3 {
   font-size: 2.75em;
   line-height: 1.5em;
   font-weight: 400;
   color: #F5F5F5;
+}
+
+.space_up_top {
+  margin-top: 2em;
+}
+
+.less_space_up_top {
+  margin-top: 0.5em;
 }
 
 .my_pic {
@@ -31,13 +34,22 @@ h2, h3 {
   border: transparent;
   box-shadow: 5px 5px #F5F5F5;
   margin: 0 auto;
-  width: 375px;
+  width: 275px;
+}
+
+.flow {
+  display: flex;
+  flex-flow: column;
 }
 
 .link_alignment {
   display: flex;
   align-items: center;
-  text-align: center;
+  margin-left: 10%
+}
+
+.github {
+  width: 40%;
 }
 
 @media screen and (min-width: 370px) and (max-width: 480px) {
@@ -49,72 +61,50 @@ h2, h3 {
     margin-right: 2%;
   }
   .my_pic {
-    width: 340px;
+    width: 200px;
   }
-  /*.link_alignment {
-    display: flex;
-    align-items: center;
-    text-align: center;
-  }*/
-}
-@media screen and (min-width: 750px) and (max-width: 1025px) {
   .link_alignment {
     display: flex;
     align-items: left;
-    text-align: left;
+    margin-left: 25%;
   }
-
-@media screen and (min-width: 660px) and (max-width: 750px) {
-  h2, h3 {
-    padding-top: .5em;
+  .github {
+    width: 25%;
   }
-  .landscape-h1 {
-    width: 4em;
+  .links {
+    font-size: 2.5em;
+    padding-right: 1em;
+    color: #F5F5F5
   }
-  .link_alignment {
-    display: flex;
-    align-items: center;
-    text-align: center;
-  }
-  /*.shift {
-    margin-left: .15em;
-  }
-  .shift_more {
-    margin-left: .525em;
-  }
-  .shift-less {
-    margin-left: .25em;
-  }*/
 }
 
-/*@media screen and (min-width: 1050px){
-  .shift {
-    margin-left: 1.18em;
+@media screen and (min-width: 660px) and (max-width: 750px) {
+  .link_alignment {
+    display: flex;
+    align-items: left;
+    margin-left: 0;
   }
-  .shift_more {
-    margin-left: 1.525em;
+}
+@media screen and (min-width: 750px) and (max-width: 768px){
+  .link_alignment {
+    display: flex;
+    align-items: left;
+    margin-left: 5%;
   }
-  .shift-less {
-    margin-left: 1.25em;
+  .github {
+    width: 40%;
+    margin-left: 15%;
   }
-}*/
-
-/*@media screen and (min-width: 760px) and (max-width: 1030px) {
-  .shift {
-    margin-left: .75em;
-  }
-  .shift_more {
-    margin-left: .85em;
-  }
-  .shift-less {
-    margin-left: .25em;
-  }
-}*/
+}
 
 @media screen and (min-width: 1000px) {
   .flipped {
     display: flex;
     flex-direction: row-reverse;
+  }
+  .github {
+    width: 40%;
+    margin-left: -25%;
   }
 }
 
@@ -132,6 +122,7 @@ h2, h3 {
   text-align: center;
   margin-top: .5em;
 }
+
 
 p {
   margin-top: 1em;
@@ -161,6 +152,7 @@ footer {
   font-size: .75em;
   text-align: center;
   margin-top: 1em;
+  margin-bottom: 3em;
 }
 
 .center_forms {
